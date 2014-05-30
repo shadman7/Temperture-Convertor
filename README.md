@@ -1,5 +1,4 @@
-12Noter
+Temperture Convertor
 =======
 
-12 Noter app
-Hello This is The source code of  12 Noter.
+Temperture Convertor is app For Quick Convert from Celesius to Frahenheit o fARHENHEIT to Celesius
