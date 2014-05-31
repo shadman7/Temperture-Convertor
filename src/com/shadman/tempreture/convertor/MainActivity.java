@@ -17,6 +17,19 @@ public class MainActivity extends Activity {
     text = (EditText) findViewById(R.id.editText1);
 
   }
+ LinearLayout ss =(LinearLayout) findViewById(R.id.ss);
+
+		ss.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+
+				 Uri uri = Uri.parse("https://github.com/shadman7");
+				 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+				 startActivity(intent);
+
+		        };
+		});
 
   // this method is called at button click because we assigned the name to the
   // "OnClick property" of the button
